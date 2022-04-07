@@ -33,3 +33,8 @@ Zur Umsetzung der IoT Architektur sind folgende Elemente erforderlich.
  
 <h3> Kommunikation zwischen dem Raspberry Pi, dem EV3 und dem Computer über SSH </h3>
 PuTTY ermöglicht es einem, schnell und reibungslos eine Verbindung zu sowohl dem EV3 und dem Raspberry Pi herzustellen https://www.putty.org/
+
+<h3> IDE für den EV3 </h3>
+
+Nach der Installation des ev3dev Images auf dem EV3, lassen sich nun Programme in diversen Progammiersprachen schreiben, z.B. Python, Java, C++ und C. Eine vollständige Liste aller möglichen Sprachen finden Sie unter https://www.ev3dev.org/docs/programming-languages/.
+Als IDE eignet sich Visual Studio Code mit der Extension LEGO MINDSTORMS EV3 MIcroPython, falls man in Python bzw. MicroPython schreiben möchte. Alle verfügbaren Programme in diesem Repo sind in Python geschrieben. 
