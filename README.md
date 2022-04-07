@@ -19,6 +19,17 @@ Zur Umsetzung der IoT Architektur sind folgende Elemente erforderlich.
     <li> Bluetooth </li>
   </ul>
  </ul>
- 
- Eine Anleitung zur Erstellung einer bootfähigen SD Karte für den EV3 finden Sie hier.
+  Eine Anleitung zur Erstellung einer bootfähigen SD Karte für den EV3 finden Sie hier.
    https://www.ev3dev.org/docs/getting-started/
+ <h3> Bestandteile für den Raspberry Pi</h3>
+<ul>
+  <li> Raspberry Pi (In diesem Fall wurde ein Model 3b+ verwendet) </li>
+  <li> Eine microSD Karte mit mindestens 8GB Speicherkapazität </li>
+  <li> Image File des aktuellen Raspbian OS (In diesem Fall wurde Bullseye Verion 11 verwendet) </li>
+  <li> Ein Netzteil mit micro USB Kabel </li>
+  
+  Eine Anleitung, um den Raspberry Pi startklar zu machen, finden Sie hier. https://projects.raspberrypi.org/de-DE/projects/raspberry-pi-setting-up/0
+ </ul>
+ 
+<h3> Kommunikation zwischen dem Raspberry Pi, dem EV3 und dem Computer über SSH </h3>
+PuTTY ermöglicht es einem, schnell und reibungslos eine Verbindung zu sowohl dem EV3 und dem Raspberry Pi herzustellen https://www.putty.org/
