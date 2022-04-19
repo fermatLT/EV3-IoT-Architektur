@@ -23,9 +23,9 @@ Zur Umsetzung der IoT Architektur sind folgende Elemente erforderlich.
    https://www.ev3dev.org/docs/getting-started/
  <h3> Bestandteile für den Raspberry Pi</h3>
 <ul>
-  <li> Raspberry Pi (In diesem Fall wurde ein Model 3b+ verwendet) </li>
+  <li> Raspberry Pi (In diesem Fall wurde ein Model 4b verwendet) </li>
   <li> Eine microSD Karte mit mindestens 8GB Speicherkapazität </li>
-  <li> Image File des aktuellen Raspbian OS (In diesem Fall wurde Bullseye Verion 11 verwendet) </li>
+  <li> Image File des aktuellen Raspbian OS (In diesem Fall wurde Bullseye Version 11 verwendet) </li>
   <li> Ein Netzteil mit micro USB Kabel </li>
   
   Eine Anleitung, um den Raspberry Pi startklar zu machen, finden Sie hier. https://projects.raspberrypi.org/de-DE/projects/raspberry-pi-setting-up/0
