@@ -10,7 +10,8 @@ Zur Umsetzung der IoT Architektur sind folgende Elemente erforderlich.
   <li> Eine microSD oder microSDHC Karte. MicroSDXC wird vom EV3 nicht unterstützt. Die maximale Speicherkapazität darf 32 GB nicht überschreiten. In diesem Tutorial wurde eine 16GB microSDHC Karte benutzt. </li>
   <li> Image File von ev3dev https://www.ev3dev.org/downloads/ </li>
   <li> WIFI USB Adapter. Eine Liste mit unterstützen Adpatern finden Sie hier https://github.com/ev3dev/ev3dev/wiki/USB-Wi-Fi-Dongles
-    In diesem Tutorial wurde ein TP-Link WIFI Adapter verwendet. https://www.tp-link.com/de/home-networking/adapter/tl-wn722n/
+    In diesem Tutorial wurde ein TP-Link WIFI Adapter verwendet. https://www.tp-link.com/de/home-networking/adapter/tl-wn722n/ </li>
+  <li>LEGO Mindstorms RFID Reader https://www.generationrobots.com/de/403699-rfid-chip-leser-mit-einem-satz-chips-fur-lego-mindstorms-nxt-ev3.html </li>
   <li> Eine Möglichkeit mit dem EV3 zu kommunizieren. </li>
   <ul>
     <li> USB Kabel </li>
