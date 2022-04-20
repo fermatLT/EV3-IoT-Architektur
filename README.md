@@ -41,4 +41,4 @@ PuTTY ermöglicht es einem, schnell und reibungslos eine Verbindung zu sowohl de
 Nach der Installation des ev3dev Images auf dem EV3, lassen sich nun Programme in diversen Progammiersprachen schreiben, z.B. Python, Java, C++ und C. Eine vollständige Liste aller möglichen Sprachen finden Sie unter https://www.ev3dev.org/docs/programming-languages/.
 Als IDE eignet sich Visual Studio Code mit der Extension LEGO MINDSTORMS EV3 MicroPython, falls man in Python bzw. MicroPython schreiben möchte. Alle verfügbaren Programme in diesem Repository sind in Python geschrieben. 
 
- <img src="https://github.com/fermatLT/EV3-IoT-Architektur/blob/main/iot_architecture%20(2).png">
+ <img src="https://github.com/fermatLT/EV3-IoT-Architektur/blob/main/EV3-IoT.svg">
