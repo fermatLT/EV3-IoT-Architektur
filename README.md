@@ -42,5 +42,5 @@ Nach der Installation des ev3dev Images auf dem EV3, lassen sich nun Programme i
 Als IDE eignet sich Visual Studio Code mit der Extension LEGO MINDSTORMS EV3 MicroPython, falls man in Python bzw. MicroPython schreiben möchte. Alle verfügbaren Programme in diesem Repository sind in Python geschrieben. 
 
 
-<h3> Veranschaulichung der IoT Architektur</h3>
+<h2> Veranschaulichung der IoT Architektur</h2>
  <img src="https://github.com/fermatLT/EV3-IoT-Architektur/blob/main/EV3-IoT.svg">
