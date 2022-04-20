@@ -47,5 +47,10 @@ Als IDE eignet sich Visual Studio Code mit der Extension LEGO MINDSTORMS EV3 Mic
  
  <h2> Vorbereitung des Rasperry Pi</h2>
  Nachdem der Raspberry Pi startklar ist, müssen voher ein Paar Pakete installiert werden und der Raspberry muss auf den aktuellen Stand gebracht werden.
- Mit den Befehlen 
+ Mit diesen Befehlen brint man den Raspberry auf den aktuellen Stand und installiert die neuen Pakete.
+ 
 <pre> sudo apt-get update </br> sudo apt-get upgrade</pre>
+
+<h3> Mosquitto MQTT </h3>
+
+<pre> sudo apt-get install mosquitto </pre>
