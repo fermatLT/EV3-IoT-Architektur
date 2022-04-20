@@ -44,3 +44,4 @@ Als IDE eignet sich Visual Studio Code mit der Extension LEGO MINDSTORMS EV3 Mic
 
 <h2> Veranschaulichung der IoT Architektur</h2>
  <img src="https://github.com/fermatLT/EV3-IoT-Architektur/blob/main/EV3-IoT.svg">
+<code>test</code>
