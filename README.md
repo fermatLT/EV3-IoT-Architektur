@@ -44,4 +44,8 @@ Als IDE eignet sich Visual Studio Code mit der Extension LEGO MINDSTORMS EV3 Mic
 
 <h2> Veranschaulichung der IoT Architektur</h2>
  <img src="https://github.com/fermatLT/EV3-IoT-Architektur/blob/main/EV3-IoT.svg">
-<pre>test</pre>
+ 
+ <h2> Vorbereitung des Rasperry Pi</h2>
+ Nachdem der Raspberry Pi startklar ist, müssen voher ein Paar Pakete installiert werden und der Raspberry muss auf den aktuellen Stand gebracht werden.
+ Mit den Befehlen 
+<pre> sudo apt-get update sudo apt-get upgrade</pre>
