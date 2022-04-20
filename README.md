@@ -46,11 +46,12 @@ Als IDE eignet sich Visual Studio Code mit der Extension LEGO MINDSTORMS EV3 Mic
  <img src="https://github.com/fermatLT/EV3-IoT-Architektur/blob/main/EV3-IoT.svg">
  
  <h2> Vorbereitung des Rasperry Pi</h2>
- Nachdem der Raspberry Pi startklar ist, müssen voher ein Paar Pakete installiert werden und der Raspberry muss auf den aktuellen Stand gebracht werden.
- Mit diesen Befehlen brint man den Raspberry auf den aktuellen Stand und installiert die neuen Pakete.
+ <p>Nachdem der Raspberry Pi startklar ist, müssen voher ein Paar Pakete installiert werden und der Raspberry muss auf den aktuellen Stand gebracht werden.
+ Mit diesen Befehlen brint man den Raspberry auf den aktuellen Stand und installiert die neuen Pakete.</p>
  
 <pre> sudo apt-get update </br> sudo apt-get upgrade</pre>
 
 <h3> Mosquitto MQTT </h3>
+<p>Message Queuing Telemetry Transport, kurz MQTT, ist ein Protokoll für die Machine-to-Machine Kommuniktaion und dient in diesen Fall, dass der EV3 über das Internet mit dem Raspberry bzw. der Nodered App kommunizieren kann. Vor allem für IoT Devices findet MQTT eine wichtige Verwendung. Um MQTT nutzen zu können, muss ein Broker installiert werden. In diesem Fall nutzen wir Mosquitto. Der Broker dient als zentrale Stelle, wodurch sich andere Devices und User verbinden lassem und entweder die Rolle als Subscriber bzw. Publisher einnehmen können. In diesem Fall ist der Raspberry der Broker, der EV3 ein Publisher und die Nodered App ein Subscriber.</p>
 
 <pre> sudo apt-get install mosquitto </pre>
