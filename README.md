@@ -48,4 +48,4 @@ Als IDE eignet sich Visual Studio Code mit der Extension LEGO MINDSTORMS EV3 Mic
  <h2> Vorbereitung des Rasperry Pi</h2>
  Nachdem der Raspberry Pi startklar ist, müssen voher ein Paar Pakete installiert werden und der Raspberry muss auf den aktuellen Stand gebracht werden.
  Mit den Befehlen 
-<pre> sudo apt-get update sudo apt-get upgrade</pre>
+<pre> sudo apt-get update </br> sudo apt-get upgrade</pre>
