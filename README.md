@@ -51,10 +51,11 @@ Als IDE eignet sich Visual Studio Code mit der Extension LEGO MINDSTORMS EV3 Mic
  
 <pre> sudo apt-get update </br> sudo apt-get upgrade</pre>
 
-<h3> Mosquitto MQTT </h3>
+<h3>Installation von Mosquitto MQTT</h3>
 <p>Message Queuing Telemetry Transport, kurz MQTT, ist ein Protokoll für die Machine-to-Machine Kommuniktaion und dient in diesen Fall, dass der EV3 über das Internet mit dem Raspberry bzw. der Nodered App kommunizieren kann. Vor allem für IoT Devices findet MQTT eine wichtige Verwendung. Um MQTT nutzen zu können, muss ein Broker installiert werden. In diesem Fall nutzen wir Mosquitto. Der Broker dient als zentrale Stelle, wodurch sich andere Devices und User verbinden lassen und entweder die Rolle als Subscriber bzw. Publisher einnehmen können. In diesem Fall ist der Raspberry der Broker, der EV3 der Publisher und die Nodered App der Subscriber.</p>
 
-<pre>sudo apt-get install mosquitto </br></pre>
+<pre>sudo apt-get install mosquitto </br>
+sudo apt-get install mosquitto-clients</pre>
 
 <p>Mit diesem Befehl lässt sich Mosquitto starten</p>
 
@@ -64,7 +65,7 @@ Als IDE eignet sich Visual Studio Code mit der Extension LEGO MINDSTORMS EV3 Mic
 
 <pre>sudo systemctl status mosquitto</pre>
 
-<p>Mit dem Release von MicroPython für den LEGO Mindstorms kommen schon zwei integrierte Pakete für MQTT mit. 'umqtt.simple' and 'umqtt.robust'. Dadruch lässt sich ein EV3 schnell in eine IoT Umgebung einbinden.
+<p>Mit dem Release von MicroPython für den LEGO Mindstorms kommen schon zwei integrierte Pakete für MQTT mit. 'umqtt.simple' and 'umqtt.robust'. Dadurch lässt sich ein EV3 schnell in eine IoT Umgebung einbinden.
   
 <pre>from umqtt.robust import MQTTClient
 client = MQTTClient(MQTT_ClientID, MQTT_Broker)
