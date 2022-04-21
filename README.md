@@ -59,3 +59,7 @@ Als IDE eignet sich Visual Studio Code mit der Extension LEGO MINDSTORMS EV3 Mic
 <p>Mit diesem Befehl lässt sich Mosquitto starten</p>
 
 <pre>sudo service mosquitto start</pre>
+
+<p>Mit diesem Befehl lässt sich der Status von Mosquitto wiedergeben</p>
+
+<pre>sudo systemctl status mosquitto</pre>
