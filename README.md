@@ -79,3 +79,10 @@ Um Node-RED auf dem Raspberry Pi zu installieren, sollte man den offiziellen Lin
 Nach erfolgreicher Installation, sollte folgender Befehl noch ausgeführt werden. Dieser fügt Node-RED zum Autoboot des Raspberry hinzu und startet das Programm direkt beim Start des Raspberry</p>
 
 <pre>sudo systemctl enable nodered.service</pre>
+
+<p>Die folgenden Befehle dienen zum manuellen Steuern von Node-RED</p>
+
+<pre>node-red-start
+node-red-stop
+node-red-restart
+node-red-log</pre>
