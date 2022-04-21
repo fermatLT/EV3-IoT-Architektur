@@ -63,3 +63,9 @@ Als IDE eignet sich Visual Studio Code mit der Extension LEGO MINDSTORMS EV3 Mic
 <p>Mit diesem Befehl lässt sich der Status von Mosquitto wiedergeben</p>
 
 <pre>sudo systemctl status mosquitto</pre>
+
+<p>Mit dem Release von MicroPython für den LEGO Mindstorms kommen schon zwei integrierte Pakete für MQTT mit. 'umqtt.simple' and 'umqtt.robust'. Dadruch lässt sich ein EV3 schnell in eine IoT Umgebung einbinden.
+  
+<pre>from umqtt.robust import MQTTClient
+client = MQTTClient(MQTT_ClientID, MQTT_Broker)
+client.connect()</pre>
