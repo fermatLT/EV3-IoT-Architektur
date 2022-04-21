@@ -74,4 +74,8 @@ client.connect()</pre>
 <h3>Installation von Node-RED</h3>
 <p>Auf dem Raspberry Pi muss nun Node-Red installiert werden. Node-RED dient in diesem Fall als Webapplikation für die IoT Umgebung. Die App fungiert als "Subscriber". Sie hört auf das Topic des EV3 und empfängt dessen Nachrichten und spiegelt diese in dem UI für den Nutzer wieder. Node-RED ist ein von IBM entwickeltetes Flow-basiertes Programming Tool. Es findet vor allem Anwendung in DIY Smart Home Umgebungen. Mit ein paar Klicks lassen sich schnell User Dashboards für die vernetzten IoT Geräte erstellen.
 
-Um Node-RED auf dem Raspberry Pi zu installieren, sollte man den offiziellen Link der Webseite nutzen. https://nodered.org/docs/getting-started/raspberrypi <pre>bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)</pre> Dort findet sich auch eine Anleitung zur Installation.
+Um Node-RED auf dem Raspberry Pi zu installieren, sollte man den offiziellen Link der Webseite nutzen. Node-RED ist zwar mittlerweile in den empfohlenen Paketen vom Raspberry OS enthalten, dennoch empfiehlt es sich der Anleitung von Node-RED zu folgen. https://nodered.org/docs/getting-started/raspberrypi <pre>bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)</pre> 
+<p>Dort findet sich auch eine Anleitung zur Installation.
+Nach erfolgreicher Installation, sollte folgender Befehl noch ausgeführt werden. Dieser fügt Node-RED zum Autoboot des Raspberry hinzu und startet das Programm direkt beim Start des Raspberry</p>
+
+<pre>sudo systemctl enable nodered.service</pre>
