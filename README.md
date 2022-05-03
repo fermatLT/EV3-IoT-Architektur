@@ -90,5 +90,5 @@ node-red-stop
 node-red-restart
 node-red-log</pre>
 
-<p>Nach der Installation sollte der Raspberry neugestartete werden.</p>
+<p>Nach der Installation sollte der Raspberry neugestartet werden.</p>
 <pre>sudo reboot</pre>
