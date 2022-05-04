@@ -94,4 +94,4 @@ node-red-log</pre>
 <pre>sudo reboot</pre>
 
 <h2>Einstieg in Node-RED</h2>
-<p>Der Node-RED Editor befindet sich unter der lokalen Adresse http://localhost:1880. Standardmäßig ist der ZUgangsport auf 1880 gesetzt. Innerhalb der settings.js file von Node-RED kann auch ein anderer Port gewählt werden.</p>
+<p>Der Node-RED Editor befindet sich unter der lokalen Adresse <em>http://localhost:1880</em>. Standardmäßig ist der Zugangsport auf 1880 gesetzt. Innerhalb der settings.js Datei von Node-RED kann auch ein anderer Port gewählt werden. Innerhalb der settings.js Datei lassen sich auch andere Paramter und Einstellungen vornehmen. </p>
