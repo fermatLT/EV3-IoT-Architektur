@@ -92,3 +92,5 @@ node-red-log</pre>
 
 <p>Nach der Installation sollte der Raspberry neugestartet werden.</p>
 <pre>sudo reboot</pre>
+
+<h2<Einstieg in Node-RED</h2>
