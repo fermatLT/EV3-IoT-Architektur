@@ -94,4 +94,4 @@ node-red-log</pre>
 <pre>sudo reboot</pre>
 
 <h2>Einstieg in Node-RED</h2>
-<p>Der Node-RED Editor befindet sich unter der lokalen Adresse <em>http://localhost:1880</em>. Standardmäßig ist der Zugangsport auf 1880 gesetzt. Innerhalb der settings.js Datei von Node-RED kann auch ein anderer Port gewählt werden. Innerhalb der settings.js Datei lassen sich auch andere Paramter und Einstellungen vornehmen. </p>
+<p>Der Node-RED Editor befindet sich unter der lokalen Adresse <em>http://localhost:1880</em>. Standardmäßig ist der Zugangsport auf 1880 gesetzt. Innerhalb der settings.js Datei von Node-RED kann auch ein anderer Port gewählt werden. Innerhalb der settings.js Datei lassen sich auch andere Parameter und Einstellungen vornehmen.</br>Node-RED ist ein flow-basiertes Browser Programmier Tool, um Hardware Devices, Online Services und API miteinander zu verknüpfen zu können. Die einzelnen Nodes dienen in den Flows als Aktionen und führen eine einzige Aufgabe innerhalb des gesamten Flows aus. Mit der Installation von Node-RED kommen zahlreiche Nodes schon direkt einher, über den Paket-Manager lassen sich noch zusätzliche Nodes installieren.</p>
