@@ -93,4 +93,5 @@ node-red-log</pre>
 <p>Nach der Installation sollte der Raspberry neugestartet werden.</p>
 <pre>sudo reboot</pre>
 
-<h2<Einstieg in Node-RED</h2>
+<h2>Einstieg in Node-RED</h2>
+<p>Der Node-RED Editor befindet sich unter der lokalen Adresse http://localhost:1880. Standardmäßig ist der ZUgangsport auf 1880 gesetzt. Innerhalb der settings.js file von Node-RED kann auch ein anderer Port gewählt werden.</p>
