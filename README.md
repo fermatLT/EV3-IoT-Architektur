@@ -97,4 +97,5 @@ node-red-log</pre>
 <p>Der Node-RED Editor befindet sich unter der lokalen Adresse <em>http://localhost:1880</em>. Standardmäßig ist der Zugangsport auf 1880 gesetzt. Innerhalb der settings.js Datei von Node-RED kann auch ein anderer Port gewählt werden. Innerhalb der settings.js Datei lassen sich auch andere Parameter und Einstellungen vornehmen.</br>Node-RED ist ein flow-basiertes Browser Programmier Tool, um Hardware Devices, Online Services und API miteinander zu verknüpfen zu können. Die einzelnen Nodes dienen in den Flows als Aktionen und führen eine einzige Aufgabe innerhalb des gesamten Flows aus. Mit der Installation von Node-RED kommen zahlreiche Nodes schon direkt einher, über den Paket-Manager lassen sich noch zusätzliche Nodes installieren.</p>
 <h3>Node-RED Dashboard UI</h3>
 <p>Die Installation für UI Elemente muss zunächst über den Paketmanager oder per npm installiert werden.
-<pre>npm install node-red-dashboard</pre>Im Suchfeld findet man das UI unter <i>node-red-dashboard</i></p>
+<pre>npm install node-red-dashboard</pre>Im Suchfeld findet man das UI unter <i>node-red-dashboard.</i>
+In der Nodepalette finden sich nun diverse UI Elemente, welche man nun mit den Flows verknüpfen kann.</p>
