@@ -30,7 +30,7 @@ Zur Umsetzung der IoT Architektur sind folgende Elemente erforderlich.
   <li> Raspberry Pi (In diesem Fall wurde ein Model 4b verwendet) </li>
   <li> Eine microSD Karte mit mindestens 8GB Speicherkapazität </li>
   <li> Image File des aktuellen Raspbian OS (In diesem Fall wurde Bullseye Version 11 verwendet) </li>
-  <li> Ein Netzteil mit micro USB Kabel </li>
+  <li> Ein Netzteil mit USB-C Kabel </li>
   
   Eine Anleitung, um den Raspberry Pi startklar zu machen, finden Sie hier. https://projects.raspberrypi.org/de-DE/projects/raspberry-pi-setting-up/0
  </ul>
