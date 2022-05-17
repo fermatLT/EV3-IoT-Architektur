@@ -24,7 +24,7 @@ Zur Umsetzung der IoT Architektur sind folgende Elemente erforderlich.
    https://www.ev3dev.org/docs/getting-started/
    
    Hier eine Anleitung, um den Colorsorter zu bauen.
-   https://education.lego.com/v3/assets/blt293eea581807678a/bltc07cd1e69ab4c867/5f8801f31e95ad78fa1e8bac/ev3-model-core-set-color-sorter.pdf
+   https://www.roberta-home.de/fileadmin/user_upload/Materialien/Bauanleitungen/Colorsorter_Bauanleitung.pdf. 
  <h3> Bestandteile für den Raspberry Pi</h3>
 <ul>
   <li> Raspberry Pi (In diesem Fall wurde ein Model 4b verwendet) </li>
