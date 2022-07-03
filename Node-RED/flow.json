@@ -1,0 +1,1536 @@
+[
+    {
+        "id": "75615dcbd95b196b",
+        "type": "tab",
+        "label": "Dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f1b54577d83dbde9",
+        "type": "tab",
+        "label": "3D",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c39bb69bb9418370",
+        "type": "tab",
+        "label": "Overview",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "06f7eae99f91a1e9",
+        "type": "group",
+        "z": "75615dcbd95b196b",
+        "name": "Dashboard_Home",
+        "style": {
+            "stroke": "#ffC000",
+            "label": true
+        },
+        "nodes": [
+            "707fd58718d7e32f",
+            "0d25d805d6fba9ce"
+        ],
+        "x": 134,
+        "y": 19,
+        "w": 332,
+        "h": 82
+    },
+    {
+        "id": "e60c7178177f90ba",
+        "type": "group",
+        "z": "75615dcbd95b196b",
+        "name": "Dashboard_System",
+        "style": {
+            "label": true,
+            "stroke": "#92d04f"
+        },
+        "nodes": [
+            "db54b7d044ea018b"
+        ],
+        "x": 134,
+        "y": 119,
+        "w": 172,
+        "h": 82
+    },
+    {
+        "id": "db8c68e60e6aa32c",
+        "type": "group",
+        "z": "75615dcbd95b196b",
+        "name": "System: Status",
+        "style": {
+            "label": true,
+            "stroke": "#92d04f"
+        },
+        "nodes": [
+            "be96c05468457dc8",
+            "9448409e3dad8b5f",
+            "446126b8494b37e5"
+        ],
+        "x": 134,
+        "y": 219,
+        "w": 352,
+        "h": 182
+    },
+    {
+        "id": "12f0b38454bd3166",
+        "type": "group",
+        "z": "75615dcbd95b196b",
+        "name": "System: Programm",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true
+        },
+        "nodes": [
+            "cddcf05c0ab46a09",
+            "1219fd5aab17de2f",
+            "ddd297b32f6a8528",
+            "50c2303469d472be",
+            "31b92b05fd81d72b",
+            "d87582752224bc9f",
+            "f4c601a680e8af2f",
+            "612ea52013b3f699",
+            "023d9ecbee5a8cff",
+            "b787aec50c7138fd",
+            "ba733e76afde9ad8",
+            "230bb3a8cbc172cd",
+            "83c95774d8681309",
+            "f1b475b54e4a493d",
+            "e2cb0d760a7d9857",
+            "32277714b688c0c2",
+            "4f7cec950201a30a",
+            "0ad10996d362a9f4",
+            "0f2f24d46aaac189",
+            "f567873024a70999",
+            "be5f175239f964a6",
+            "6efc7b60166da29c"
+        ],
+        "x": 134,
+        "y": 439,
+        "w": 1492,
+        "h": 402
+    },
+    {
+        "id": "568e090e7cb88536",
+        "type": "group",
+        "z": "75615dcbd95b196b",
+        "name": "System: Service",
+        "style": {
+            "stroke": "#92d04f",
+            "label": true
+        },
+        "nodes": [
+            "372804c441207102",
+            "b17c2eca62c90713",
+            "82e151dcac3242b9",
+            "a4e926eaf64b1364",
+            "e883aa76640826f7",
+            "cdef5ea06814742e",
+            "61deb12ac71d5f8b",
+            "04c2420c1f2ff37b",
+            "f8a1a53590128d5f",
+            "61b4e66ff6608b38"
+        ],
+        "x": 154,
+        "y": 939,
+        "w": 1012,
+        "h": 342
+    },
+    {
+        "id": "3d833ea25d58f58c",
+        "type": "group",
+        "z": "75615dcbd95b196b",
+        "name": "Schema CDN",
+        "style": {
+            "stroke": "#ffC000",
+            "label": true
+        },
+        "nodes": [
+            "d4ae12627c8a9c10"
+        ],
+        "x": 834,
+        "y": 1179,
+        "w": 192,
+        "h": 82
+    },
+    {
+        "id": "d6e5ecb6ccb417fb",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#9f6592",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#9f6592",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "page-backgroundColor": {
+                    "value": "#111827",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#92d3ce",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#67325a",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#404040",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#9f6592",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "LEGO Service Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "icon",
+            "allowTempTheme": "true",
+            "dateFormat": "DD.MM.YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 0,
+                "cx": 6,
+                "cy": 0,
+                "px": 17,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "63bcf47cfbbea5e8",
+        "type": "ui_tab",
+        "name": "Lego Service Dashboard",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "62763c2f2afc7be5",
+        "type": "ui_tab",
+        "name": "3D",
+        "icon": "blur_on",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0ef9b4ce48de7cde",
+        "type": "ui_tab",
+        "name": "Overview",
+        "icon": "insert_photo",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e5d3db6edeb439b8",
+        "type": "ui_group",
+        "name": "Home",
+        "tab": "63bcf47cfbbea5e8",
+        "order": 1,
+        "disp": false,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f14a65ec6922104d",
+        "type": "ui_group",
+        "name": "System",
+        "tab": "63bcf47cfbbea5e8",
+        "order": 2,
+        "disp": false,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "588fe5fdbe988533",
+        "type": "ui_group",
+        "name": "Schema St4 CDN",
+        "tab": "63bcf47cfbbea5e8",
+        "order": 3,
+        "disp": false,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "566cc4b960a9e9af",
+        "type": "ui_group",
+        "name": "Digitaler Zwilling",
+        "tab": "62763c2f2afc7be5",
+        "order": 1,
+        "disp": true,
+        "width": "24",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7c96529acd4f97bd",
+        "type": "mqtt-broker",
+        "name": "piServer",
+        "broker": "192.168.2.73",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f351d4f6ffcde474",
+        "type": "ui_link",
+        "name": "Link 5",
+        "link": "https://github.com/fermatLT/EV3-IoT-Architektur",
+        "icon": "github-box",
+        "target": "newtab",
+        "order": 5
+    },
+    {
+        "id": "52f69b9fcefbc5da",
+        "type": "ui_spacer",
+        "z": "75615dcbd95b196b",
+        "name": "spacer",
+        "group": "e5d3db6edeb439b8",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a5bdf8454ea6c748",
+        "type": "ui_group",
+        "name": "IoT Architektur",
+        "tab": "0ef9b4ce48de7cde",
+        "order": 1,
+        "disp": false,
+        "width": "24",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a0fc164acc3e4f03",
+        "type": "ngrokauth",
+        "name": ""
+    },
+    {
+        "id": "56090a405a84d557",
+        "type": "ngrokauth",
+        "name": "EV3"
+    },
+    {
+        "id": "9ca1403e.76505",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "31d45087.7182b",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "31d45087.7182b",
+        "type": "ui_tab",
+        "name": "Tab 3",
+        "icon": "dashboard",
+        "order": 3
+    },
+    {
+        "id": "707fd58718d7e32f",
+        "type": "ui_template",
+        "z": "75615dcbd95b196b",
+        "g": "06f7eae99f91a1e9",
+        "group": "e5d3db6edeb439b8",
+        "name": "Home",
+        "order": 1,
+        "width": "12",
+        "height": "3",
+        "format": "<style>\n    body{\n        padding: 8px;\n    }\n    md-content{\n        overflow: hidden !important;\n    }\n    #toolbar{\n        background: none !important;\n    }\n    #Lego_Service_Dashboard_Home, #Lego_Service_Dashboard_System, #Lego_Service_Dashboard_Schema_St4_CDN, md-card, h1{\n        border: none;\n        border-radius: 5px;\n    }\n    #Lego_Service_Dashboard_Schema_St4_CDN{\n        top: 436px !important;\n        max-height: auto !important;\n    }\n    #Lego_Service_Dashboard_System_cards{\n        height: 630px !important;\n    }\n    .nr-dashboard-template h4{\n        background: none !important;\n    }\n</style>\n<h1><i class=\"fa fa-home\" aria-hidden=\"true\"></i> Home</h1>\n<p>Dieses Dashboard dient dem Service Team zum Überwachen und zur Fehlerbehandlung des LEGO Mindstorms EV3 Farbsortierer. Zur Fehlerbehandlung ist die Webapp an das CDN des EV3 angeknüpft.\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 210,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "db54b7d044ea018b",
+        "type": "ui_template",
+        "z": "75615dcbd95b196b",
+        "g": "e60c7178177f90ba",
+        "group": "f14a65ec6922104d",
+        "name": "System",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "format": "<style>\n    .statusWidget{\n        top: 70px !important;\n    }\n    .programmWidget{\n        top: 140px !important;\n    }\n    .serviceWidget{\n        top: 310px !important;\n    }\n    h4{\n    background: none !important;\n    }\n    .counter {\n        top: 230px !important;\n    }\n    md-card:nth-of-type(5),md-card:nth-of-type(6),md-card:nth-of-type(7),md-card:nth-of-type(8),md-card:nth-of-type(9),md-card:nth-of-type(10),md-card:nth-of-type(11),md-card:nth-of-type(12){\n        background: none !important;\n    }\n    md-card:nth-of-type(5),md-card:nth-of-type(6),md-card:nth-of-type(7),md-card:nth-of-type(8){top: 160px !important}\n    md-card:nth-of-type(5){left:-3px !important}\n    md-card:nth-of-type(6){left:96px !important}\n    md-card:nth-of-type(7){left:212px !important}\n    md-card:nth-of-type(8){left:313px !important}\n    .btnFehler, .btnCounter {\n        top: 500px !important;\n    }\n</style>\n<h1><i class=\"fa fa-cogs\" aria-hidden=\"true\"></i> System</h1>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 220,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0d25d805d6fba9ce",
+        "type": "ui_media",
+        "z": "75615dcbd95b196b",
+        "g": "06f7eae99f91a1e9",
+        "group": "e5d3db6edeb439b8",
+        "name": "EV3 Image",
+        "width": "12",
+        "height": "5",
+        "order": 2,
+        "category": "media",
+        "file": "ev3_1.png",
+        "layout": "adjust",
+        "showcontrols": false,
+        "loop": false,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 370,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be96c05468457dc8",
+        "type": "ui_template",
+        "z": "75615dcbd95b196b",
+        "g": "db8c68e60e6aa32c",
+        "group": "f14a65ec6922104d",
+        "name": "Status",
+        "order": 2,
+        "width": "12",
+        "height": "2",
+        "format": "<style>\n    .flexBox{\n        width: 80%;\n        display: flex;\n        background-color: #92d3ce !important;\n        flex-wrap: nowrap;\n        border-radius: 4px;\n        box-shadow: 4px 4px 4px lightgrey;\n    }\n    .flexBox > div {\n    width: auto;\n    margin: 10px;\n    text-align: left;\n    }\n    .nr-dashboard-ui_led {\n        top: 75px !important;\n        left: 469px !important;\n        background: none !important;\n    }\n</style>\n<div class=\"flexBox\">\n    <div>\n        <h4>Status: </h4>\n    </div>\n    <div>\n        <h4 ng-bind-html=\"msg.payload\"></h4>\n    </div>\n    <div></div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "statusWidget",
+        "x": 410,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9448409e3dad8b5f",
+        "type": "ui_led",
+        "z": "75615dcbd95b196b",
+        "g": "db8c68e60e6aa32c",
+        "order": 3,
+        "group": "f14a65ec6922104d",
+        "width": "1",
+        "height": "1",
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#808080",
+                "value": "null",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "Online",
+                "valueType": "str"
+            },
+            {
+                "color": "#ff0000",
+                "value": "Fehler",
+                "valueType": "str"
+            },
+            {
+                "color": "#ffa500",
+                "value": "Service",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "LED",
+        "x": 410,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "cddcf05c0ab46a09",
+        "type": "ui_template",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "group": "f14a65ec6922104d",
+        "name": "Programm",
+        "order": 4,
+        "width": "12",
+        "height": "4",
+        "format": "<div class=\"flexBox\">\n    <div>\n        <h4>Programm: </h4>\n    </div>\n    <div>\n        <h4 ng-bind-html=\"msg.payload\"></h4>\n    </div>\n    <div></div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "programmWidget",
+        "x": 1390,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "372804c441207102",
+        "type": "ui_template",
+        "z": "75615dcbd95b196b",
+        "g": "568e090e7cb88536",
+        "group": "f14a65ec6922104d",
+        "name": "Service",
+        "order": 13,
+        "width": "12",
+        "height": "4",
+        "format": "<h2><i class=\"fa fa-angle-double-right\" aria-hidden=\"true\"></i> Service</h2>\n<p>Der EV3 darf nur durch authorisiertes Personal gewartet werden. Nutzen Sie dazu Ihre RFID Karte am EV3, um in den Service Modus zu kommen. Beachten Sie bitte auch die Lösungsvorschläge des CDN.</p>\n<div class=\"flexBox\">\n    <div>\n        <h4>Meldungen: </h4>\n    </div>\n    <div>\n        <h4 ng-bind-html=\"msg.payload\"></h4>\n    </div>\n    <div></div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "serviceWidget",
+        "x": 1080,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1219fd5aab17de2f",
+        "type": "change",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "Counter Reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "counterYellow",
+                "pt": "flow",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "counterRed",
+                "pt": "flow",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "counterGreen",
+                "pt": "flow",
+                "to": "0",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "counterBlue",
+                "pt": "flow",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 480,
+        "wires": [
+            [
+                "d87582752224bc9f",
+                "ddd297b32f6a8528",
+                "50c2303469d472be",
+                "31b92b05fd81d72b"
+            ]
+        ]
+    },
+    {
+        "id": "ddd297b32f6a8528",
+        "type": "ui_text",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "group": "f14a65ec6922104d",
+        "order": 9,
+        "width": "2",
+        "height": "2",
+        "name": "Red",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "counter",
+        "x": 1370,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "50c2303469d472be",
+        "type": "ui_text",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "group": "f14a65ec6922104d",
+        "order": 10,
+        "width": "2",
+        "height": "2",
+        "name": "Green",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "counter",
+        "x": 1370,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "31b92b05fd81d72b",
+        "type": "ui_text",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "group": "f14a65ec6922104d",
+        "order": 11,
+        "width": "2",
+        "height": "2",
+        "name": "Blue",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "counter",
+        "x": 1370,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "d87582752224bc9f",
+        "type": "ui_text",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "group": "f14a65ec6922104d",
+        "order": 12,
+        "width": "2",
+        "height": "2",
+        "name": "Yellow",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "counter",
+        "x": 1370,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "f4c601a680e8af2f",
+        "type": "function",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "counterYellow",
+        "func": "var counterYellow = flow.get(\"counterYellow\") || 0\ncounterYellow++\nflow.set(\"counterYellow\", counterYellow)\nmsg.payload = counterYellow\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 680,
+        "wires": [
+            [
+                "d87582752224bc9f"
+            ]
+        ]
+    },
+    {
+        "id": "612ea52013b3f699",
+        "type": "function",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "counterRed",
+        "func": "var counterRed = flow.get(\"counterRed\") || 0\ncounterRed++\nflow.set(\"counterRed\", counterRed)\nmsg.payload = counterRed\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 720,
+        "wires": [
+            [
+                "ddd297b32f6a8528"
+            ]
+        ]
+    },
+    {
+        "id": "023d9ecbee5a8cff",
+        "type": "function",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "counterGreen",
+        "func": "var counterGreen = flow.get(\"counterGreen\") || 0\ncounterGreen++\nflow.set(\"counterGreen\", counterGreen)\nmsg.payload = counterGreen\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1100,
+        "y": 760,
+        "wires": [
+            [
+                "50c2303469d472be"
+            ]
+        ]
+    },
+    {
+        "id": "b787aec50c7138fd",
+        "type": "function",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "counterBlue",
+        "func": "var counterBlue = flow.get(\"counterBlue\") || 0\ncounterBlue++\nflow.set(\"counterBlue\", counterBlue)\nmsg.payload = counterBlue\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 800,
+        "wires": [
+            [
+                "31b92b05fd81d72b"
+            ]
+        ]
+    },
+    {
+        "id": "ba733e76afde9ad8",
+        "type": "ui_button",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "",
+        "group": "f14a65ec6922104d",
+        "order": 14,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "label": "Counter Reset",
+        "tooltip": "Counter zurücksetzen",
+        "color": "",
+        "bgcolor": "",
+        "className": "btnCounter",
+        "icon": "replay",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 700,
+        "y": 480,
+        "wires": [
+            [
+                "1219fd5aab17de2f"
+            ]
+        ]
+    },
+    {
+        "id": "446126b8494b37e5",
+        "type": "mqtt in",
+        "z": "75615dcbd95b196b",
+        "g": "db8c68e60e6aa32c",
+        "name": "",
+        "topic": "/home/status",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "7c96529acd4f97bd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 320,
+        "wires": [
+            [
+                "9448409e3dad8b5f",
+                "be96c05468457dc8",
+                "61deb12ac71d5f8b",
+                "6efc7b60166da29c",
+                "61b4e66ff6608b38"
+            ]
+        ]
+    },
+    {
+        "id": "83c95774d8681309",
+        "type": "switch",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Start",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Farbsortierer",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Yellow",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Red",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Green",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Blue",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 6,
+        "x": 590,
+        "y": 680,
+        "wires": [
+            [
+                "0ad10996d362a9f4",
+                "0f2f24d46aaac189"
+            ],
+            [
+                "cddcf05c0ab46a09"
+            ],
+            [
+                "f4c601a680e8af2f"
+            ],
+            [
+                "612ea52013b3f699"
+            ],
+            [
+                "023d9ecbee5a8cff"
+            ],
+            [
+                "b787aec50c7138fd"
+            ]
+        ]
+    },
+    {
+        "id": "b17c2eca62c90713",
+        "type": "mqtt in",
+        "z": "75615dcbd95b196b",
+        "g": "568e090e7cb88536",
+        "name": "",
+        "topic": "/home/meldungen",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7c96529acd4f97bd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 630,
+        "y": 1160,
+        "wires": [
+            [
+                "372804c441207102"
+            ]
+        ]
+    },
+    {
+        "id": "82e151dcac3242b9",
+        "type": "ui_button",
+        "z": "75615dcbd95b196b",
+        "g": "568e090e7cb88536",
+        "name": "",
+        "group": "f14a65ec6922104d",
+        "order": 15,
+        "width": "4",
+        "height": "1",
+        "passthru": false,
+        "label": "Fehler löschen",
+        "tooltip": "Service Meldungen löschen",
+        "color": "",
+        "bgcolor": "darkred",
+        "className": "btnFehler",
+        "icon": "delete",
+        "payload": "Reset",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 620,
+        "y": 1000,
+        "wires": [
+            [
+                "a4e926eaf64b1364",
+                "e883aa76640826f7"
+            ]
+        ]
+    },
+    {
+        "id": "d4ae12627c8a9c10",
+        "type": "ui_template",
+        "z": "75615dcbd95b196b",
+        "g": "3d833ea25d58f58c",
+        "group": "588fe5fdbe988533",
+        "name": "Schema St4 ",
+        "order": 9,
+        "width": "12",
+        "height": "4",
+        "format": "<h2><i class=\"fa fa-cube\" aria-hidden=\"true\"></i> Schema St4 CDN</h2>\n<p>Das Content Delivery Network liefert Dokumentationen, Fehlercodes und Hilfestellungen bei technischen Problemen.</p>\n<h3 ng-bind-html=\"msg.payload\"></h3>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "schemaWidget",
+        "x": 930,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a4e926eaf64b1364",
+        "type": "change",
+        "z": "75615dcbd95b196b",
+        "g": "568e090e7cb88536",
+        "name": "Fehler löschen",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Online",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 980,
+        "wires": [
+            [
+                "9448409e3dad8b5f",
+                "be96c05468457dc8"
+            ]
+        ]
+    },
+    {
+        "id": "e883aa76640826f7",
+        "type": "change",
+        "z": "75615dcbd95b196b",
+        "g": "568e090e7cb88536",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 1020,
+        "wires": [
+            [
+                "372804c441207102",
+                "d4ae12627c8a9c10"
+            ]
+        ]
+    },
+    {
+        "id": "cdef5ea06814742e",
+        "type": "change",
+        "z": "75615dcbd95b196b",
+        "g": "568e090e7cb88536",
+        "name": "Schema St4",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "<i class=\"fa fa-info-circle\" aria-hidden=\"true\"></i> Lösungsvorschläge <ol>   <li>Scannen Sie Ihre RFID Karte, um in den Service Mode zu kommen.</li>   <li>Drücken Sie die linke Steuerkreuztaste für 3 Sekunden.</li>   <li>Der Fehler ist nun zurückgesetzt.</li> </ol>",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 1240,
+        "wires": [
+            [
+                "d4ae12627c8a9c10"
+            ]
+        ]
+    },
+    {
+        "id": "e2cb0d760a7d9857",
+        "type": "ui_media",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "group": "f14a65ec6922104d",
+        "name": "Blue Beam",
+        "width": "3",
+        "height": "3",
+        "order": 7,
+        "category": "media",
+        "file": "blue-removebg-preview.png",
+        "layout": "expand",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 1530,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "32277714b688c0c2",
+        "type": "ui_media",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "group": "f14a65ec6922104d",
+        "name": "Red Beam",
+        "width": "3",
+        "height": "3",
+        "order": 5,
+        "category": "media",
+        "file": "redBrick.png",
+        "layout": "expand",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 1530,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4f7cec950201a30a",
+        "type": "ui_media",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "group": "f14a65ec6922104d",
+        "name": "Green Beam",
+        "width": "3",
+        "height": "3",
+        "order": 6,
+        "category": "media",
+        "file": "greenBrick.png",
+        "layout": "expand",
+        "showcontrols": false,
+        "loop": false,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 1530,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f1b475b54e4a493d",
+        "type": "ui_media",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "group": "f14a65ec6922104d",
+        "name": "Yellow Beam",
+        "width": "3",
+        "height": "3",
+        "order": 8,
+        "category": "media",
+        "file": "yellowBrick.png",
+        "layout": "expand",
+        "showcontrols": true,
+        "loop": false,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 1530,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ad10996d362a9f4",
+        "type": "change",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 560,
+        "wires": [
+            [
+                "cddcf05c0ab46a09"
+            ]
+        ]
+    },
+    {
+        "id": "0f2f24d46aaac189",
+        "type": "change",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 930,
+        "y": 600,
+        "wires": [
+            [
+                "d87582752224bc9f",
+                "ddd297b32f6a8528",
+                "50c2303469d472be",
+                "31b92b05fd81d72b"
+            ]
+        ]
+    },
+    {
+        "id": "230bb3a8cbc172cd",
+        "type": "mqtt in",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "",
+        "topic": "/home/programm",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "7c96529acd4f97bd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 680,
+        "wires": [
+            [
+                "83c95774d8681309"
+            ]
+        ]
+    },
+    {
+        "id": "61deb12ac71d5f8b",
+        "type": "change",
+        "z": "75615dcbd95b196b",
+        "g": "568e090e7cb88536",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 1000,
+        "wires": [
+            [
+                "82e151dcac3242b9"
+            ]
+        ]
+    },
+    {
+        "id": "04c2420c1f2ff37b",
+        "type": "inject",
+        "z": "75615dcbd95b196b",
+        "g": "568e090e7cb88536",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 1100,
+        "wires": [
+            [
+                "f8a1a53590128d5f"
+            ]
+        ]
+    },
+    {
+        "id": "f8a1a53590128d5f",
+        "type": "change",
+        "z": "75615dcbd95b196b",
+        "g": "568e090e7cb88536",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 1100,
+        "wires": [
+            [
+                "82e151dcac3242b9"
+            ]
+        ]
+    },
+    {
+        "id": "be5f175239f964a6",
+        "type": "change",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 560,
+        "wires": [
+            [
+                "ba733e76afde9ad8"
+            ]
+        ]
+    },
+    {
+        "id": "f567873024a70999",
+        "type": "inject",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 560,
+        "wires": [
+            [
+                "be5f175239f964a6"
+            ]
+        ]
+    },
+    {
+        "id": "6efc7b60166da29c",
+        "type": "change",
+        "z": "75615dcbd95b196b",
+        "g": "12f0b38454bd3166",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 500,
+        "wires": [
+            [
+                "ba733e76afde9ad8"
+            ]
+        ]
+    },
+    {
+        "id": "61b4e66ff6608b38",
+        "type": "function",
+        "z": "75615dcbd95b196b",
+        "g": "568e090e7cb88536",
+        "name": "",
+        "func": "if (msg.payload ==\"Service\"){\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 1240,
+        "wires": [
+            [
+                "cdef5ea06814742e"
+            ]
+        ]
+    },
+    {
+        "id": "86191e3a3ec0f7eb",
+        "type": "ui_template",
+        "z": "f1b54577d83dbde9",
+        "group": "566cc4b960a9e9af",
+        "name": "3D",
+        "order": 2,
+        "width": "24",
+        "height": "11",
+        "format": "<style>\n    body{\n    padding: 8px;\n    }\n    #toolbar{\n    background: none !important;\n    }\n    model-viewer{\n        width:100%;\n        height: 100vh;\n    }\n</style>\n<script type=\"module\" src=\"https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js\"></script>\n<model-viewer bounds=\"tight\" enable-pan src=\"http://192.168.2.123:1880/ev3model.glb\" ar ar-modes=\"webxr scene-viewer quick-look\" camera-controls\n    environment-image=\"neutral\" poster=\"poster.webp\" shadow-intensity=\"1\" auto-rotate> </model-viewer>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6f81edb076eec4f1",
+        "type": "ui_media",
+        "z": "c39bb69bb9418370",
+        "group": "a5bdf8454ea6c748",
+        "name": "IoT Architektur",
+        "width": "24",
+        "height": "13",
+        "order": 3,
+        "category": "media",
+        "file": "Bild1.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 360,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "07652f65283ae2d1",
+        "type": "ui_template",
+        "z": "c39bb69bb9418370",
+        "group": "a5bdf8454ea6c748",
+        "name": "Css",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "format": "<style>\n    body{\n    padding: 8px;\n    }\n    #toolbar{\n    background: none !important;\n    }\n    #O\n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 150,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    }
+]
